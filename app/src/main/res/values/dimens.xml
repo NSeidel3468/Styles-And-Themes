@@ -2,8 +2,9 @@
 <resources>
     <dimen name="editTextHeight">50dp</dimen>
     <dimen name="editTextWidth">300dp</dimen>
-    <dimen name="textViewHeight">30dp</dimen>
+    <dimen name="textViewHeight">55dp</dimen>
     <dimen name="textViewWidth">250dp</dimen>
+
 
 
 </resources>
