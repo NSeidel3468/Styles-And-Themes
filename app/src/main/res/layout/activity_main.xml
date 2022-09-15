@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="280dp"
         android:layout_margin="100dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
@@ -20,6 +20,7 @@
 
 
         <EditText
+            style="@style/EditTextStyle"
             android:id="@+id/editTextTextPersonName"
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
@@ -39,6 +40,7 @@
             android:text="Button" />
 
         <TextView
+            style="@style/EditTextStyle"
             android:id="@+id/textView"
             android:layout_width="@dimen/textViewWidth"
             android:layout_height="@dimen/textViewHeight"
