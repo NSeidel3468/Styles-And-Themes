@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="editTextHeight">50dp</dimen>
-    <dimen name="editTextWidth">300dp</dimen>
+    <dimen name="editTextHeight">75dp</dimen>
+    <dimen name="editTextWidth">200dp</dimen>
     <dimen name="textViewHeight">55dp</dimen>
     <dimen name="textViewWidth">250dp</dimen>
-
+    <dimen name="buttonWidth">100dp</dimen>
+    <dimen name="buttonHeight">70dp</dimen>
 
 
 </resources>
