@@ -21,7 +21,9 @@
 
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/displayedName"
+            android:layout_width= "@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
             style="@style/textViewCustom"
             android:gravity="center"
             android:text="Name:" />
@@ -31,13 +33,16 @@
             android:hint="First"
             android:inputType="textPersonName"
             android:text=""
-            style="@style/editTextCustom"
+            android:layout_width= "@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
             />
 
         <Button
             android:id="@+id/firstConfirm"
-            style="@style/buttonCustom"
             android:text="Confirm"
+            android:layout_width= "@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_margin="@dimen/buttonMargins"
             />
 
         <EditText
@@ -45,13 +50,16 @@
             android:inputType="textPersonName"
             android:text=""
             android:hint="Last"
-            style="@style/editTextCustom"
+            android:layout_width= "@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
             />
 
         <Button
             android:id="@+id/lastConfirm"
-            style="@style/buttonCustom"
             android:text="Confirm"
+            android:layout_width= "@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight"
+            android:layout_marginTop="@dimen/buttonMargins"
             />
 
     </LinearLayout>

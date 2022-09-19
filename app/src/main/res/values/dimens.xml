@@ -3,10 +3,11 @@
     <dimen name="editTextHeight">75dp</dimen>
     <dimen name="editTextWidth">200dp</dimen>
     <dimen name="textViewHeight">55dp</dimen>
+    <dimen name="textViewWidth">wrap_content</dimen>
     <dimen name="buttonWidth">100dp</dimen>
     <dimen name="buttonHeight">70dp</dimen>
     <dimen name="textViewPadding">25dp</dimen>
-    <dimen name="buttonMargins">10dp</dimen>
+    <dimen name="buttonMargins">20dp</dimen>
     <dimen name="fontSize">33dp</dimen>
 
 </resources>

@@ -12,18 +12,15 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:editTextStyle">@style/editTextCustom</item>
+        <item name="editTextStyle">@style/editTextCustom</item>
+        <item name="android:buttonStyle">@style/buttonCustom</item>
     </style>
 
     <style name="buttonCustom" parent="android:style/Widget.Button">
         <item name="android:textColor">@color/primaryDarkColor</item>
-        <item name="android:layout_marginTop">@dimen/buttonMargins</item>
-        <item name="android:layout_marginBottom">@dimen/buttonMargins</item>
-        <item name="android:layout_width">@dimen/buttonWidth</item>
-        <item name="android:layout_height">@dimen/buttonHeight</item>
         <item name="android:background">@drawable/custom_button</item>
-        <item name="android:paddingLeft">5dp</item>
-        <item name="android:paddingRight">5dp</item>
+        <item name="android:padding">5dp</item>
+
     </style>
 
     <style name="editTextCustom" parent="android:style/Widget.EditText">
